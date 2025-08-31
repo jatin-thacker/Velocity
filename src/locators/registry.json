@@ -1,0 +1,549 @@
+{
+  "login.username": {
+    "required": true,
+    "timeout": 5000,
+    "healer": {
+      "enabled": true,
+      "timeout": 1200
+    },
+    "candidates": [
+      "#amember-login",
+      "input[name='amember_login']",
+      "role=textbox[name=/username|email/i]"
+    ]
+  },
+  "login.password": {
+    "required": true,
+    "timeout": 5000,
+    "healer": {
+      "enabled": true,
+      "timeout": 1200
+    },
+    "candidates": [
+      "#amember-pass",
+      "input[name='amember_pass']",
+      "role=textbox[name=/password/i]"
+    ]
+  },
+  "login.submit": {
+    "required": true,
+    "timeout": 5000,
+    "healer": {
+      "enabled": true,
+      "timeout": 1200
+    },
+    "candidates": [
+      "#am-login-form input[type='submit']",
+      "form#am-login-form >> input[value='Login']",
+      "role=button[name=/login/i]"
+    ]
+  },
+  "velocity.link": {
+    "required": true,
+    "timeout": 5000,
+    "candidates": [
+      "a.open-velocity.app-logins",
+      "a.open-velocity",
+      "text=Velocity"
+    ]
+  },
+  "nav.add.toggle": {
+    "required": true,
+    "timeout": 6000,
+    "healer": {
+      "enabled": true,
+      "timeout": 1200
+    },
+    "candidates": [
+      "aside.left-side >> text=/^\\s*Add\\s*$/i",
+      "role=button[name=/^\\s*Add\\s*$/i]",
+      "role=menuitem[name=/^\\s*Add\\s*$/i]",
+      "nav >> text=/^\\s*Add\\s*$/i",
+      "text=/^\\s*Add\\s*$/i"
+    ]
+  },
+  "nav.add.application": {
+    "required": true,
+    "timeout": 8000,
+    "healer": {
+      "enabled": true,
+      "timeout": 1200
+    },
+    "candidates": [
+      "aside.left-side >> text=/^\\s*Application\\s*$/i",
+      "role=menuitem[name=/^\\s*Application\\s*$/i]",
+      "nav >> text=/^\\s*Application\\s*$/i",
+      "text=/^\\s*Application\\s*$/i"
+    ]
+  },
+  "quick.firstName": {
+    "required": true,
+    "timeout": 6000,
+    "candidates": [
+      "#quick_firstname",
+      "input#quick_firstname",
+      "input[name='quick_firstname']",
+      "role=textbox[name=/first name/i]"
+    ]
+  },
+  "quick.lastName": {
+    "required": true,
+    "timeout": 6000,
+    "candidates": [
+      "#quick_lastname",
+      "input#quick_lastname",
+      "input[name='quick_lastname']",
+      "role=textbox[name=/last name/i]"
+    ]
+  },
+  "quick.casl.checkbox": {
+    "required": true,
+    "timeout": 6000,
+    "candidates": [
+      "#quick_casl",
+      "input#quick_casl",
+      "input[name='quick_casl']",
+      "role=checkbox[name=/casl/i]"
+    ]
+  },
+  "quick.closingDate": {
+    "required": true,
+    "timeout": 8000,
+    "candidates": [
+      "#quick_closing",
+      "input#quick_closing",
+      "role=textbox[name=/closing date/i]"
+    ]
+  },
+  "quick.agent.select": {
+    "required": true,
+    "timeout": 8000,
+    "candidates": [
+      "#quick_broker",
+      "select#quick_broker",
+      "role=combobox[name=/agent/i]"
+    ]
+  },
+  "quick.mortgageAmount": {
+    "required": false,
+    "timeout": 6000,
+    "candidates": [
+      "#quick_mortgage1",
+      "input#quick_mortgage1",
+      "input[name='quick_mortgage1']",
+      "role=textbox[name=/mortgage amount/i]"
+    ]
+  },
+  "quick.save.button": {
+    "required": true,
+    "timeout": 5000,
+    "candidates": [
+      "button.save-btn",
+      "button:has-text('Save')"
+    ]
+  },
+  "Borrowers.section": {
+    "candidates": [
+      "role=region[name=/borrowers/i]",
+      "css=section[data-section='borrowers']",
+      "xpath=//span[contains(@class,'grid-title') and normalize-space()='Borrowers']/ancestor::*[contains(@class,'grid-accordion')][1]",
+      "css=.grid-accordion:has(.grid-title:has-text('Borrowers'))"
+    ],
+    "required": false,
+    "timeout": 1200
+  },
+  "Borrowers.panel.open": {
+    "required": false,
+    "timeout": 8000,
+    "candidates": [
+      "xpath=//span[contains(@class,'grid-title') and normalize-space()='Borrowers']/ancestor::*[contains(@class,'grid-accordion')][1][contains(@class,'open')]",
+      "css=.grid-accordion.open:has(.grid-title:has-text('Borrowers'))"
+    ]
+  },
+  "Borrowers.addBorrower": {
+    "required": true,
+    "timeout": 8000,
+    "candidates": [
+      "role=button[name=/add borrower/i]",
+      "css=button[ng-click='dealVM.addBorrower()']"
+    ]
+  },
+  "Borrowers.header": {
+    "candidates": [
+      "xpath=//span[contains(@class,'grid-title') and normalize-space()='Borrowers']/ancestor::*[contains(@class,'grid-header')][1]"
+    ],
+    "required": true
+  },
+  "Borrowers.modal.root": {
+    "candidates": [
+      "css=.modal-content:has(.modal-title)",
+      "xpath=//div[contains(@class,'modal-content')]//h4[contains(.,'New Contact')]/ancestor::div[contains(@class,'modal-content')]"
+    ],
+    "required": true
+  },
+  "Borrowers.modal.firstName": {
+    "candidates": [
+      "css=input[name='FirstName']"
+    ],
+    "required": true
+  },
+  "Borrowers.modal.lastName": {
+    "candidates": [
+      "css=input[name='LastName']"
+    ],
+    "required": true
+  },
+  "Borrowers.modal.dob": {
+    "candidates": [
+      "css=input[name='DateOfBirth']"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.email": {
+    "candidates": [
+      "css=input[name='Email']"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.casl": {
+    "candidates": [
+      "css=input[name='CASLOptIn']"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.home.area": {
+    "candidates": [
+      "#newContact-home-area"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.home.top": {
+    "candidates": [
+      "#newContact-home-top"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.home.bottom": {
+    "candidates": [
+      "#newContact-home-bottom"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.cell.area": {
+    "candidates": [
+      "#newContact-cell-area"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.cell.top": {
+    "candidates": [
+      "#newContact-cell-top"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.cell.bottom": {
+    "candidates": [
+      "#newContact-cell-bottom"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.contactPref": {
+    "candidates": [
+      "css=select[name='ContactPreference']"
+    ],
+    "required": false
+  },
+  "Borrowers.modal.ok": {
+    "candidates": [
+      "role=button[name=/^ok$/i]",
+      "css=.modal-footer .btn.btn-default"
+    ],
+    "required": true
+  },
+  "Borrowers.tabs.labels": {
+    "candidates": [
+      "role=tab",
+      ".grid-accordion .nav-tabs li a",
+      ".nav-tabs li a",
+      ".borrowers .nav li a",
+      ".grid-accordion .nav li a",
+      "a[href^='#borrower']",
+      "[href^='#borrower']",
+      "[ng-href^='#borrower']",
+      ".nav-tabs li [href^='#borrower']",
+      ".nav-tabs li [ng-href^='#borrower']",
+      ".nav-tabs li div[data-toggle='tab']",
+      ".nav-tabs li .arep",
+      "xpath=//ul[contains(@class,'nav')][contains(@class,'tabs') or contains(@class,'nav')]//li/*[contains(@href,'borrower') or @data-toggle='tab' or contains(concat(' ',normalize-space(@class),' '),' arep ')]"
+    ],
+    "required": false,
+    "timeout": 1200
+  },
+  "Borrowers.tab.activePane": {
+    "candidates": [
+      ".tab-content .tab-pane.active",
+      ".tab-pane.active"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.salutation": {
+    "candidates": [
+      ".tab-content .tab-pane.active select[ng-model='borrower.ContactInfo.Salutation']",
+      ".tab-pane.active select[ng-model='borrower.ContactInfo.Salutation']",
+      "css=select[ng-model='borrower.ContactInfo.Salutation']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.firstName": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='FirstName']",
+      ".tab-pane.active input[name='FirstName']",
+      "input[name='FirstName']",
+      "input[ng-model='borrower.ContactInfo.FirstName']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.initial": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='MiddleName']",
+      ".tab-pane.active input[name='MiddleName']",
+      "input[name='MiddleName']",
+      "input[ng-model='borrower.ContactInfo.MiddleName']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.lastName": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='LastName']",
+      ".tab-pane.active input[name='LastName']",
+      "input[name='LastName']",
+      "input[ng-model='borrower.ContactInfo.LastName']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.email": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='Email']",
+      ".tab-pane.active input[name='Email']",
+      "input[name='Email']",
+      "input[ng-model='borrower.ContactInfo.Email']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.homePhone": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='HomePhone']",
+      ".tab-pane.active input[name='HomePhone']",
+      "css=input[name='HomePhone']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.cellPhone": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='CellPhone']",
+      ".tab-pane.active input[name='CellPhone']",
+      "css=input[name='CellPhone']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.workPhone": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[ng-model='borrower.ContactInfo.BusinessPhone']",
+      ".tab-pane.active input[ng-model='borrower.ContactInfo.BusinessPhone']",
+      "input[ng-model='borrower.ContactInfo.BusinessPhone']",
+      ".tab-content .tab-pane.active input[placeholder*='ext.']",
+      ".tab-pane.active input[placeholder*='ext.']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.fax": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[ng-model='borrower.ContactInfo.FaxNumber']",
+      ".tab-pane.active input[ng-model='borrower.ContactInfo.FaxNumber']",
+      "input[ng-model='borrower.ContactInfo.FaxNumber']",
+      ".tab-content .tab-pane.active input[key$='-fax']",
+      ".tab-pane.active input[key$='-fax']",
+      "input[key$='-fax']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.contactPref": {
+    "candidates": [
+      ".tab-content .tab-pane.active select[name='ContactPreference']",
+      ".tab-pane.active select[name='ContactPreference']",
+      "select[name='ContactPreference']",
+      "select[ng-model='borrower.ContactInfo.ContactPreference']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.dob": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='DateOfBirth']",
+      ".tab-pane.active input[name='DateOfBirth']",
+      "input[name='DateOfBirth']",
+      "input[ng-model='borrower.ContactInfo.DateOfBirth']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.sin": {
+    "candidates": [
+      ".tab-content .tab-pane.active input[name='SIN']",
+      ".tab-pane.active input[name='SIN']",
+      "input[name='SIN']",
+      "input[ng-model='borrower.ContactInfo.SIN']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.language": {
+    "candidates": [
+      ".tab-content .tab-pane.active select[name='Language']",
+      ".tab-pane.active select[name='Language']",
+      "select[name='Language']",
+      "select[ng-model='borrower.ContactInfo.CorrespondenceLanguage']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.maritalStatus": {
+    "candidates": [
+      ".tab-content .tab-pane.active select[name='MaritalStatus']",
+      ".tab-pane.active select[name='MaritalStatus']",
+      "select[name='MaritalStatus']",
+      "select[ng-model='borrower.ContactInfo.MaritalStatus']"
+    ],
+    "required": false
+  },
+  "Borrowers.profile.residency": {
+    "candidates": [
+      ".tab-content .tab-pane.active select[name='Residency']",
+      ".tab-pane.active select[name='Residency']",
+      "select[name='Residency']",
+      "select[ng-model='borrower.ContactInfo.ResidentType']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.searchToggle": {
+    "candidates": [
+      ".tab-pane.active address-editor .ui-select-toggle",
+      ".tab-pane.active .opta-main-search .ui-select-toggle",
+      ".tab-pane.active .ui-select-container .ui-select-toggle"
+    ],
+    "required": false,
+    "timeout": 2000
+  },
+  "Borrowers.address.container": {
+    "candidates": [
+      ".tab-pane.active .ui-select-container.ui-select-bootstrap",
+      ".tab-pane.active address-editor .ui-select-container"
+    ],
+    "required": false,
+    "timeout": 2000
+  },
+  "Borrowers.address.openContainer": {
+    "candidates": [
+      ".tab-pane.active .ui-select-container.ui-select-bootstrap.open",
+      ".tab-pane.active address-editor .ui-select-container.open"
+    ],
+    "required": false,
+    "timeout": 2000
+  },
+  "Borrowers.address.typeManually": {
+    "candidates": [
+      ".tab-pane.active .btn-type-manually",
+      "button.btn-type-manually[ng-click*='typeManually']"
+    ],
+    "required": false,
+    "timeout": 2000
+  },
+  "Borrowers.address.manual.section": {
+    "candidates": [
+      ".tab-pane.active .manual-section",
+      ".manual-section"
+    ],
+    "required": false,
+    "timeout": 3000
+  },
+  "Borrowers.address.manual.unit": {
+    "candidates": [
+      ".tab-pane.active input[name='Address_UnitNumber']",
+      "input[name='Address_UnitNumber']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.manual.streetNumber": {
+    "candidates": [
+      ".tab-pane.active input[name='Address_StreetNumber']",
+      "input[name='Address_StreetNumber']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.manual.streetName": {
+    "candidates": [
+      ".tab-pane.active input[name='Address_StreetName']",
+      "input[name='Address_StreetName']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.manual.streetType": {
+    "candidates": [
+      ".tab-pane.active select[name='Address_StreetType']",
+      "select[name='Address_StreetType']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.manual.city": {
+    "candidates": [
+      ".tab-pane.active input[name='Address_City']",
+      "input[name='Address_City']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.manual.province": {
+    "candidates": [
+      ".tab-pane.active select[name='Address_Province']",
+      "select[name='Address_Province']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.manual.postal": {
+    "candidates": [
+      ".tab-pane.active input[name='Address_PostalCode']",
+      "input[name='Address_PostalCode']"
+    ],
+    "required": false
+  },
+  "Borrowers.address.searchInput": {
+    "candidates": [
+      ".tab-pane.active address-editor input.ui-select-search[placeholder*='Start typing']",
+      ".tab-pane.active .ui-select-container input.ui-select-search[placeholder*='Start typing']",
+      "input.ui-select-search[placeholder*='Start typing']"
+    ],
+    "required": false,
+    "timeout": 6000
+  },
+  "Borrowers.address.choicesRows": {
+    "candidates": [
+      ".tab-pane.active ul.ui-select-choices .ui-select-choices-row",
+      "ul.ui-select-choices .ui-select-choices-row",
+      "role=option"
+    ],
+    "required": false,
+    "timeout": 6000
+  },
+  "Borrowers.address.firstChoice": {
+    "candidates": [
+      ".tab-pane.active ul.ui-select-choices .ui-select-choices-row.active",
+      ".tab-pane.active ul.ui-select-choices .ui-select-choices-row",
+      "ul.ui-select-choices .ui-select-choices-row"
+    ],
+    "required": false,
+    "timeout": 6000
+  },
+  "Borrowers.employment.add": {
+    "candidates": [
+      "role=button[name=/add employment/i]",
+      "button[ng-click='dealVM.addEmployer(borrower)']"
+    ],
+    "required": false,
+    "timeout": 4000
+  }
+}

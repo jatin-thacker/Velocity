@@ -1,0 +1,39 @@
+{
+  "scripts": {
+    "postinstall": "npx playwright install --with-deps",
+    "clean:reports": "rimraf reports && mkdir reports",
+    "bdd": "cucumber-js",
+    "bdd:headed": "cross-env HEADED=1 cucumber-js",
+    "bdd:smoke": "cross-env TAGS=@smoke cucumber-js",
+    "bdd:parallel": "cross-env CUCUMBER_PARALLEL=4 cucumber-js",
+    "bdd:chromium": "cross-env BROWSER=chromium cucumber-js",
+    "bdd:firefox": "cross-env BROWSER=firefox cucumber-js",
+    "bdd:webkit": "cross-env BROWSER=webkit cucumber-js",
+    "demo": "npm-run-all --sequential clean:reports bdd:headed report:mchr open:cucumber",
+    "report:mchr": "node tools/report/build-mchr.js",
+    "report:html": "node tools/report/build-cucumber-html.js",
+    "open:cucumber": "node tools/report/open-report.js",
+    "seed": "node tools/seed/seed.js",
+    "seed:sit": "node tools/seed/seed.js sit",
+    "seed:uat": "node tools/seed/seed.js uat",
+    "test:ui": "npm run bdd",
+    "test:headed": "npm run bdd:headed",
+    "report:open": "node tools/report/open-report.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@cucumber/html-formatter": "^20.2.0",
+    "@faker-js/faker": "^8.3.1",
+    "@playwright/test": "^1.46.0",
+    "cross-env": "^7.0.3",
+    "multiple-cucumber-html-reporter": "^3.7.0",
+    "npm-run-all": "^4.1.5",
+    "playwright": "^1.46.0",
+    "rimraf": "^5.0.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "i": "^0.3.7",
+    "xlsx": "^0.18.5"
+  }
+}

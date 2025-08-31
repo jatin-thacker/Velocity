@@ -1,0 +1,29 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Walker",
+    "street": "123 Maple Street",
+    "city": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "postcode": "M5J 2N1"
+  },
+  {
+    "firstName": "Raj",
+    "lastName": "Mehta",
+    "street": "45 Queen St W",
+    "city": "Toronto",
+    "province": "Ontario",
+    "country": "Canada",
+    "postcode": "M5H 2N2"
+  },
+  {
+    "firstName": "Maya",
+    "lastName": "Singh",
+    "street": "1200 Burrard St",
+    "city": "Vancouver",
+    "province": "British Columbia",
+    "country": "Canada",
+    "postcode": "V6Z 2C7"
+  }
+]

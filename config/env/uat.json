@@ -1,0 +1,274 @@
+{
+  "cookies": [
+    {
+      "name": "site",
+      "value": "wm-preprod",
+      "domain": "uas4-uat.cams.scotiabank.com",
+      "path": "/aos/v4/oauth2",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "6330CF09546F6A9C981A113581DEB84F",
+      "domain": "uas4-uat.cams.scotiabank.com",
+      "path": "/aos",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "site",
+      "value": "wm-preprod",
+      "domain": "uas4-uat.cams.scotiabank.com",
+      "path": "/aos",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "camslbcookie4",
+      "value": "22",
+      "domain": ".uas4-uat.cams.scotiabank.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_81f541cd2f4ea9c2908b9e39b03e0a80_1756438336372_ck",
+      "value": "0",
+      "domain": "dlslhpkfqfglo.cloudfront.net",
+      "path": "/",
+      "expires": 1756438396.354497,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__md_81f541cd2f4ea9c2908b9e39b03e0a80",
+      "value": "81f541cd2f4ea9c2908b9e39b03e0a80-N/A",
+      "domain": "dlslhpkfqfglo.cloudfront.net",
+      "path": "/",
+      "expires": 1787974337.179184,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bm_mi",
+      "value": "D9A39FEF5D8F1EDF631FBCE1C330D261~YAAQhqErF8pvR+2YAQAA/hbi8xyLxO5MI/xAIVrWAbbKp71BeWn2waSe64FxQHIrJ7LfCBdprNw0LkwjO5Jl9VvRhXL2C0HoFOhs7l4K9ca1lZi0lBDkdrrmUyLmRUAc5DelUc9Pxu3jTaG93sNnw58G0BtkhXEw4+q1Hq9E3zOYJQ0Oqz5D/gO+OFUF2gy1sZL7EHhAZTVGo1nnrySwliO5lkUPznln4j43N1qs2UT902UA6nTJqAmO81gWDgIK+N79bRRyIYZpkp7FikGbD294gzJl91y9OpF80YADdQzNJKVjoi0oPnM2rD0YfSfx+zVcPhR10rlifWkvwJDV5w4xFDkZlWTPyIhbpW4=~1",
+      "domain": ".cams.scotiabank.com",
+      "path": "/",
+      "expires": 1756445535.25224,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "ED27ADA5F3B3962DCEF4990ECB1C4223~YAAQhqErF8tvR+2YAQAA/hbi8xyHV4GDYhTJ+Qu20IvaeethIfTwV34IENbg1omEfkfuYL4NQHYayW5UdLwV7NI7QIsMX097M1644H+yvHocKsdzYEKESaqyqTDFiVisFD/YJdTWtJONLSuJCYWiDJcvnCF2TBxkt+XCJnOpCo9fKFf2zvZgwZgKJguD1Zun1Aobc2MEcTbXGmW2gtEJOAn4q4crX0JWJ3RcRwzf1yGS0E37iwi/0y0plV5f1+QpZxdt4j7KG2wA~1",
+      "domain": ".cams.scotiabank.com",
+      "path": "/",
+      "expires": 1756445537.252306,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "A05DACF172DE487E83275E3F8D9B9A9A~000000000000000000000000000000~YAAQhqErF/9vR+2YAQAAGhri8xx/SWbGAGFsbjdWFg7BHCD21wRnEdW6v6cMgHx7REG6NJldVsGFrpunhCURJZj7a45aRFjWuiSCaLqPOHIBnSuZ/+VeKEBcnjIzUz02jEuk0OPDFtZXT96TEqyRtyd1QNLcGx6+gNCgozo0pF7/5oKRl1JwbQY0UGqQMsJffceTIcFLE4jMGUBws+JGUn0NBgox4k29PRPKSjbZDFq/f9y7BlyRFBkxcRhExxfBvTzPJaTkFXiHdZnuj2GqcYPxfmnbMoX+Jr+tHTMzct7xO7HlgRjIVgjCvNwplEdD4w0gveu+p4KvgWNNFHxRa8tivnlbJ8pdCRF0u/jljSb7ujIWnrOu4Yn27ZvkrqVzXpVqJroRwlN4tKr2wyCLorY4/h3EuF41sXl91GyXdBplpoC8NGHRMd1XEqekOvlD5zugzYNJgsjIkTIPz3Hd+m9zQXaUlarGVsBZ9P37PI+OVzsCKjkguciK6jbrUuau+C4in2ijqp2yMsfUdDnhZSmLPxgFcDwsh5zhIVQR",
+      "domain": ".cams.scotiabank.com",
+      "path": "/",
+      "expires": 1756445534.05034,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "E5F8D36A65C44B2B7F03455D32AC3A6B~-1~YAAQhqErF25yR+2YAQAA4D3i8w5KLhPKnSjNQjJY/Pu7zqc8iXj5mcgXYdjlfoZhAVryOZGySIU5g252ShMUfc2Z0JO5motutf9FN1DFF4SZPVOdJVx9H1xnhP4qe6y3XOqDXeIIAj83te4yy6OaVryIdENwZkusy+rfJergsRioSp727xGvkZgEFffrEgBEW+RfNqF3OabbyOQQPvwvbW6o3VMS3kNGSSEboyPfNDaAYCX99pvDEXVLGeIOLUCAmr918cyxoHHaQnzp2NKCe5p1wa0L8vjcTav3bkssU75HDud4FXfWjF+yeeFZxoXtXRxc457rob+V8Vt71WE6ayLiX8d5H5KdLZAMB7VpM1S6FlAlfnAdlSSGVkfygKOyt3qsDvzsFU5MR5Ho1BVd4wdsK244JeljQ2Ll/LPClKglJtg7pC0KfD1wue9cXWmyc5oAziRvEPZuW2wOxd4moMx0jcZXATNRDx/HBt/Y/x1FKZHt2aReCDUDuJjYQNAin2hRFCYYGBsPTlAoMSrFy/01jDLoQ1kJI39RgVRLZopArLYYFT9kSTUrGv40v3XVHOcsUbVwBPJ5sp3oYan+l9SKgbNARtMs~-1~-1~1756441936~AAQAAAAE%2f%2f%2f%2f%2f%2fLsOjyq0gmflDfLspy3AUeSz8AsAGvPRRMSn0hp9QMKJ7sMmobeyLwItEjcpv1VVLaSvdDyt9RQuE8fvIZdSP5qNKo2Yw0pbv%2fi~-1",
+      "domain": ".scotiabank.com",
+      "path": "/",
+      "expires": 1787974347.206262,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "smaCamsDeviceCookie",
+      "value": "AQICcCFMFDIdGTDinWq+dSFzC51gajQzSABjkdKE+1RNZufy1mV24TTrZA==",
+      "domain": ".uas4-uat.cams.scotiabank.com",
+      "path": "/",
+      "expires": 1787974347.439422,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "smaSinceLastLoginCookie",
+      "value": "AQICcCFMFDIdGTD7d65M/4axUYMYLQ2fKOAGL2Bf6nlpDNh7KGnWKvXJBC+L57+sqTfdveop8gPhdyNxOJPFrNzPk2++Oey+NUiqfUHrvyHbY4Q=",
+      "domain": ".uas4-uat.cams.scotiabank.com",
+      "path": "/",
+      "expires": 1787974347.439491,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "camsRememberMeOnComputerCookie4",
+      "value": "true",
+      "domain": ".uas4-uat.cams.scotiabank.com",
+      "path": "/",
+      "expires": 1787974347.439517,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "camsssotoken4",
+      "value": "",
+      "domain": ".uas4-uat.cams.scotiabank.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "8FABDF063F58F36661C5F29F44007E27~YAAQhqErF4ZyR+2YAQAA0z/i8xzeY4Celv5uVzWUK7b0NXGCg9Dv50R0w2OE7z9Qvz+JDUi91yh4aNucLgBiqbgY7livNtsIE4ncbiO6Sm1l81F9WUToBG+WILSRe2Qd+Q5H0Hq/0vqLvNPUhbas9dhmACfLuVsae69n43eFm+NsM7TGbPbJZurZ5mOze1OuG9y+504vAkSZYfGm7VLxdVgqdn7yuuLCFphrmKMwI35dkhEgrLLm+biq56IAzMicdbahlTJyip5AmCngTIz5lP5b6ZZ/YEIw1OR9RUyc9cJhSXuDICIENalJf9TDeJOmOscQP6d06K92ZHbtwX0Wfo+akyiyU3qbM+4AxDS0ynqmnSe4Z8RfrkexDbmBWeAmaLAIj8s6p336UpPKV8quDIXw3Ifs3wwAbhQZQDS0FJGWKk6olQ==~4338500~3621428",
+      "domain": ".scotiabank.com",
+      "path": "/",
+      "expires": 1756452734.70598,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "SESSION",
+      "value": "YWIxYzM3YjQtMWZmZC00ZGZhLTk3ODgtZWQ0MDBkYjRmZWZk",
+      "domain": "www.scotiamortgageauthority-uat.scointnet.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_mi",
+      "value": "3C29BE1ADD3C5426C1DE167FEB44CC1E~YAAQHKErFwkq6+mYAQAA5UHi8xybyx0PsZm+bPzjBLGxfQD8g7mpqwZfcIVGRSguh5Gp1+RDuK6VV9gtQoiGqzDzQ/cC8B42Rw4diezTBcYw/PITh4SZ2mQ5JV2nf5w18oH63FCVVHhBtbV6qfqGUFoWtFahbwrL5q7awmNwBU6OLpvKDDno/bKP7+myM8vpZocf7U9FTumjqUG4J85Smb7uC4D0hrR+5wX5Bd0wHyi68+hdr5QbWPKwi2WPNFtBjjKleVcz7pAOHiCMNvIMLU+PpdmuxQR2MOLHDAy5uD7Q6teIuehOHLlpRdVDJFmYiF3KGuElEmoEbTK9JVJyuD2gC9Nreo8/THeTdXY=~1",
+      "domain": ".scotiamortgageauthority-uat.scointnet.net",
+      "path": "/",
+      "expires": 1756445532.23616,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sz",
+      "value": "36D062E89A65E18F25DD8D9C7C19342D~YAAQHKErFwsq6+mYAQAA5UHi8xzyIGLyqAsGjzHzjukhuBtwq/6iW1UG8/UagTdjFnDXP3b2CJpvkS5IRd/dwQORAz73lI4Sp8WX1OfDlTWc262FCSGkp2jMF9DLIJKtsIs6S9DECnBZlnqRsT1KrifwJH0DVfTpaYruaD4bH3Nt+puFuIl8Upno43UL+Cs4U3PzF9lx8CzgHxC7MqM8jTgzj6NFjApxCGTzDph2CYZ6o8PttmP5sfQ6VL54uqGn3Zhs87jxt88NZj6E5SQdyim7/CFGgyQdXaTDvjQhhCU7fzn8wYnhN6cL2uarO9NB1opVJqR0kCRZa1SRu27obO3jfRjJ00Gnq9Mq73G4AI9grtee3IU0zmfgOMV8SLWSaX0WEEsFLFJP0UU2xNaN6KN/DP+T7+T8dm5vKQ3Y13BEFbU=~4404294~3355957",
+      "domain": ".scointnet.net",
+      "path": "/",
+      "expires": 1756452732.236261,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "9F432B1211C9FCE17C60E7F6758AEBCF~000000000000000000000000000000~YAAQHKErF2Iq6+mYAQAA3kLi8xzgrDBExZpIaENc4Z+HaGVeF3kxXcOHmqXu8qkk/tM+mB3dUovUq5+dHk8CqzpzAyB6DxqEG0s/ZuQKbqX0Nvyr2qnm/lzTxxsjoYB6QLOUEDYMbSW9Tt7n1FVQ0KoDN2cHHBfAgaITbQtD0OIu+S1xEruXJwo4X3/aYItG16cJDdiw+6KORdlR4njgK0Q27ugPvm7+sbpRGdPjWmCCtqDPqN2qxosT1tYah607Nnig50ty5NS0aEL8VIGHOcvP0NXGIFInRLaGPF2EyOLAzhTdCAgToAklwFxrx9YcaS18lp+LBxoOp2mcsgfActM8+2PNYS6lxEoT4Pd51lrtmSConJchr/whebKgYwKCAcPYH+dHR7bi7iULLeNMSOLzimiLW7+5DX7GUJK+thM5jJQCmf7qd4nnOIcI3JkyQpaPPOhI3Yy6sOfZPMvGwpWZ10ha5m80nkG9fh0ZQie2axyXaVnDVQRITLzO/3iGdoEUfG3bENL1jMckl2egWW+EbdonzzQ=",
+      "domain": ".scotiamortgageauthority-uat.scointnet.net",
+      "path": "/",
+      "expires": 1756445532.487805,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_abck",
+      "value": "C1DD85C7FC6FB1EA1DCC8FAD7D0A2C61~-1~YAAQHKErF58q6+mYAQAAV0Pi8w5CwfUq5vSTL9edgA0CUMqNqrWa9oEdzU4B1gTraCo1kR/MEoKkARukqz4aPT+5fZcr/1jDQifuRrnspHR3y6Ka1PEnciqCFCSL1SzJjYN7+nDoRmODYVulTYy9T9+ZrnGQIDcaIO/HaRLfhL1zSgpOHRqKg8f3boqzRNh9h9Yk3beibWEwqjDmfj4ql2OTPgtron/joYjfvHVoO9J50hLQNYbmokqSicUy030cN6/BmFIVtogiC1r2CmScr80NObSA3C3wnKtgnZ/u9wiQdD7xL6JmwDKp5QhHTyQ/MBDgTsLoLquFod1jzhJ7K98qlUtPKzsJMp79FCzHSx8Dhkj2++VQ8uZQc6fCSIXd7038DX5iTan654EQeT/rnOaDqBceTaD5frCUIVX+7w9oxW/nYdyWXRJBT9oq6ldnmHf6VF189Au9T8zLp+Nff/HBGQfjChMB1nNYEZTJ5K0U45JCuNZo0h28psc+PNKCBBOEi1iZACUqWJGRnXrQLvOR00xf75soTDhHK0l97Es3sGvoQgkmKjNb2PowzQhtEVVspBzEMUbbXSfZYG64vXdcYh8=~-1~-1~1756441948~~",
+      "domain": ".scointnet.net",
+      "path": "/",
+      "expires": 1787974348.606523,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "5455306F1BF4327322E1D98D62F44072~YAAQHKErFy4r6+mYAQAASUXi8xwQgA5PALwgrcwqwxk9FaeO80ibI+VrwGZRsQGx2llLyN5Nfc+WHUO8Psi4Z4QG+Nt2Ppc6ZAnUq7z7m5I5D0Owr6MjyyyJVBjYk6A5U60H5VJlH+j4BxHRGx77YRJKRdsmK3jOW9qwnfVFkGgAu5qyrYpt9bCTlQl3r4uumTgWMkhKXmP/2Jr8otv6KYKOmbE55M9zjMNwWrk0OyLRKwreviXoYDQYLGB60ORbJgdlfKJlSIXtzgPOQ1KFjB3jn/kNM3+cIeQgoGPsDg==~1",
+      "domain": ".scotiamortgageauthority-uat.scointnet.net",
+      "path": "/",
+      "expires": 1756445548.113507,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.scotiamortgageauthority-uat.scointnet.net",
+      "localStorage": [
+        {
+          "name": "ak_a",
+          "value": "C1DD85C7FC6FB1EA1DCC8FAD7D0A2C61"
+        },
+        {
+          "name": "ak_ax",
+          "value": "-1"
+        },
+        {
+          "name": "currentLanguage",
+          "value": "en-CA"
+        },
+        {
+          "name": "lastAction",
+          "value": "1756438348837"
+        }
+      ]
+    },
+    {
+      "origin": "https://uas4-uat.cams.scotiabank.com",
+      "localStorage": [
+        {
+          "name": "cs-ep",
+          "value": ""
+        },
+        {
+          "name": "aphishi-saved-data",
+          "value": "{\"aphishi-workstation-id\":\"81f541cd2f4ea9c2908b9e39b03e0a80-N/A\",\"aphishi-last-user\":\"Unknown12345678901234567890\",\"aphishi-workstation-ssid\":\"\",\"aphishi-super-secret-keyword\":\"RoDo381\",\"aphishi-opacity\":\"default\",\"aphishi-look\":\"default\",\"aphishi-win-type\":\"default\",\"aphishi-lang\":\"default\",\"aphishi-animation\":\"true\",\"aphishi-window-showed\":\"false\",\"aphishi-login-page\":\"/aos/sma/login/login.bns\",\"aphishi-skin-color\":\"default\",\"aphishi-imagesMenu\":\"true\",\"aphishi-TransparencyCheck\":\"default\"}"
+        },
+        {
+          "name": "aphishi-window-x-axis",
+          "value": "null"
+        },
+        {
+          "name": "ak_a",
+          "value": "E5F8D36A65C44B2B7F03455D32AC3A6B"
+        },
+        {
+          "name": "ak_ax",
+          "value": "-1"
+        },
+        {
+          "name": "aphishi-lws_at",
+          "value": ""
+        },
+        {
+          "name": "aphishi-window-y-axis",
+          "value": "null"
+        },
+        {
+          "name": "aph-v",
+          "value": "latest"
+        }
+      ]
+    }
+  ]
+}
